@@ -7,12 +7,29 @@
 }
 
 @media (max-width: 820px) {
-.logo {
-    display: none;
+
+    .header_main {
+    flex-direction: column;
 }
-.menu {
+    
+    .logo {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    opacity: 1;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+        margin-bottom: 20px;
+}
+    
+    .menu {
     width: 100%;
 }    
+    }
+    
+    
+
     .menu_ul {
     display: flex;
     justify-content: center;
@@ -113,7 +130,7 @@
 @media (max-width: 500px) {
     .header_back {
     background-image: url();
-    height: 460px;
+    height: 490px;
 }
     
     #link_1 {
