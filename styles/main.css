@@ -341,16 +341,13 @@ margin-top: 55px;
 
 .phone_number_main {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
     align-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     max-width: 800px;
     padding: 20px 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: #070227;
     border-radius: 20px;
     border: 2px solid white;

@@ -43,6 +43,12 @@
 .phone_number {
     bottom: 30px;
 }
+    
+.ph_item a {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
 
 }
 
@@ -74,11 +80,11 @@
 }
     
 .popular_main_h1_1 h1 {
-    font-size: 62px;
+    font-size: 52px;
 }
     
 .popular_main_h1 h1 {
-    font-size: 62px;
+    font-size: 52px;
 }
 
 }
@@ -97,7 +103,7 @@
     .menu_li a{
     text-decoration: none;
     color: #fff;
-    padding: 15px;
+    padding: 15px 5px;
     font-family: "Gilroy-Regular";
 }
     
@@ -109,6 +115,12 @@
     background-image: url();
     height: 460px;
 }
+    
+    #link_1 {
+        display: none;
+    }
+    
+    
 
 }
 
