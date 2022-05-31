@@ -1,0 +1,114 @@
+@media (max-width: 920px) {
+    .contacts_main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+}
+
+@media (max-width: 820px) {
+.logo {
+    display: none;
+}
+.menu {
+    width: 100%;
+}    
+    .menu_ul {
+    display: flex;
+    justify-content: center;
+
+}
+.header_back {
+    background-image: url();
+    height: 670px;
+}
+
+.phone_number {
+    bottom: 50px;
+}
+    
+    .mean_head {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 760px) {
+
+.header_back {
+    background-image: url();
+    height: 630px;
+}
+    
+.phone_number {
+    bottom: 30px;
+}
+
+}
+
+@media (max-width: 640px) {
+
+.header_back {
+    background-image: url();
+    height: 550px;
+}
+    
+.phone_number {
+    bottom: 30px;
+}
+
+}
+
+@media (max-width: 590px) {
+
+.menu_ul {
+
+    border-radius: 0px;
+}
+    
+.conteiner {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+    
+.popular_main_h1_1 h1 {
+    font-size: 62px;
+}
+    
+.popular_main_h1 h1 {
+    font-size: 62px;
+}
+
+}
+
+
+@media (max-width: 550px) {
+
+    .popcorm {
+        display: none;
+    }
+    
+    .header_back {
+    background-image: url();
+    height: 500px;
+}
+    .menu_li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-family: "Gilroy-Regular";
+}
+    
+}
+
+
+@media (max-width: 500px) {
+    .header_back {
+    background-image: url();
+    height: 460px;
+}
+
+}
+
